@@ -23,7 +23,7 @@ Steps:
 8.  Select the new images using the checkboxes and select the Auto Label function.
 9.  Once the autolabel has finished, open up the new images and add any extra objects that were missed.  It did a fairly good job of picking up Silos (tankers) and trees, but add any that are missing using the Label Objects and polygons function.
 10. Now train a new version of the model.  Object detection and Segmentation (Detectron) again.
-11. Test again with new images - you should see a slight improvement.
+11. Deploy and Test again with new images - you should see a slight improvement.
 12. Go the API Video test and repeat the upload of the videplayback.mp4 file.  You should see an improvement in the quality of detection for Silos (tankers).
 
 This illustrates the end to end process of building models and iterating to get better with autolabelling to save time and effort.
