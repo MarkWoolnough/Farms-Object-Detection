@@ -19,7 +19,7 @@ Steps:
 4.  Deploy and Test the model.  Its pretty basic, so reports an accuracy of 16% initially.  This is probably due to the complexity of some of the objects like trees in clusters.
 5.  Go to the Deployed Models Page and test the model with the supplied sample images in "Test Files for Model" repository folder.
 6.  Launch the Video API endpoint and test with the videoplayback.mp4 file.  Upload and Detect.  If the model doesn't play back, download it and open it in a browser.  Chrome is ideal.  Review the playback.  See how Silos are labelled as buildings.
-7.  Go back to the Data Sets page and go into your farms dataset.  Upload the new images for the next iteration.
+7.  Go back to the Data Sets page and go into your farms dataset.  Upload the new images for the next iteration from "Files to build new model" repository folder.
 8.  Select the new images using the checkboxes and select the Auto Label function.
 9.  Once the autolabel has finished, open up the new images and add any extra objects that were missed.  It did a fairly good job of picking up Silos (tankers) and trees, but add any that are missing using the Label Objects and polygons function.
 10. Now train a new version of the model.
