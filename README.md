@@ -10,7 +10,7 @@ Once deployed, the model can also simulate a drone inspection by using the video
 
 The next step is to upload some new files with tankers (silos) in - the base model does not detect these very well as illustrated by the initial mp4 test.  Once uploaded, the autolabel service can label these new images and they can then be augmented by an operator to complete and demonstrate time saving techniques for labelling in PowerAI Vision.
 
-The final step is to train a new model with the data including autolaballed files, test the test images then test the mp4 again.  Whilst not perfect, it should show an improvement in performance.
+The final step is to train a new model with the data including autolabelled files, test the test images then test the mp4 again.  Whilst not perfect, it should show an improvement in performance.
 
 Steps:
 1.  In PowerAI Vision, navigate to the data tab and create a new dataset.
