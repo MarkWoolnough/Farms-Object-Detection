@@ -14,7 +14,7 @@ The final step is to train a new model with the data including autolaballed file
 
 Steps:
 1.  In PowerAI Vision, navigate to the data tab and create a new dataset.
-2.  Upload the zip file for the baseline model.
+2.  Upload the zip file for the baseline model in "Baseline Model" repository folder.
 3.  Launch a training job, select object detection and the Segmentation (Detectron) option.  Should take around 15 minutes to train.
 4.  Deploy and Test the model.  Its pretty basic, so reports an accuracy of 16% initially.  This is probably due to the complexity of some of the objects like trees in clusters.
 5.  Go to the Deployed Models Page and test the model with the supplied sample images in "Test Files for Model" repository folder.
